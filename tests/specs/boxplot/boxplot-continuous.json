@@ -22,7 +22,7 @@
       "source": ".0/group_by1/boxplot2/align3_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.cyl"
           ]
@@ -45,7 +45,7 @@
       "source": ".0/group_by1/boxplot2/align3/boxplot_outliers4_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.cyl"
           ]

@@ -209,7 +209,7 @@ as.vega.grouped_df <- function(x, name, ...) {
     name = name,
     source = paste0(name, "_flat"),
     transform = list(list(
-      type = "treefacet",
+      type = "facet",
       keys = as.list(paste0("data.", safe_vega_var(group_vars)))
     ))
   )

@@ -19,7 +19,7 @@
       "source": ".0/group_by1/boxplot2_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.x"
           ]
@@ -41,7 +41,7 @@
       "source": ".0/group_by1/boxplot2/boxplot_outliers3_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.x"
           ]

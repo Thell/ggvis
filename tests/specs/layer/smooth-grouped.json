@@ -17,7 +17,7 @@
       "source": ".0/group_by1/model_prediction2_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.cyl"
           ]

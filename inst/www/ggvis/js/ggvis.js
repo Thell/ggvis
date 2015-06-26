@@ -885,11 +885,11 @@ ggvis = (function(_) {
 })(lodash);
 
 // This is like facet, but includes the key values in a  at each level.
-vg.data.treefacet = function() {
+vg.data.facet = function() {
 
   var keys = [], key_funs = [];
 
-  function treefacet(data) {
+  function facet(data) {
     var result = {
           key: "",
           keys: [],
@@ -932,13 +932,13 @@ vg.data.treefacet = function() {
     return result;
   }
 
-  treefacet.keys = function(k) {
+  facet.keys = function(k) {
     keys = k;
     key_funs = vg.array(k).map(vg.accessor);
-    return treefacet;
+    return facet;
   };
 
-  return treefacet;
+  return facet;
 };
 
 

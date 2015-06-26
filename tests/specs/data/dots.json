@@ -16,7 +16,7 @@
       "source": ".0_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.cyl\\.new"
           ]

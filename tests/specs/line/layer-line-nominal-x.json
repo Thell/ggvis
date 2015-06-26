@@ -15,7 +15,7 @@
       "source": ".0/group_by1/arrange2_flat",
       "transform": [
         {
-          "type": "treefacet",
+          "type": "facet",
           "keys": [
             "data.z"
           ]
